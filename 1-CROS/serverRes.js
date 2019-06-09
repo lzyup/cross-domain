@@ -7,5 +7,4 @@ app.use(express.static(__dirname + '/static'));//3000端口的静态文件，即
 //__dirname始终指向当前js代码文件(serverReq)所在的目录，在我的本地目录/Users/xiaganfu/WebstormProjects/crossDomain-demo
 app.listen(requestPort, function () {
     console.log("Request is listening on port" + requestPort)
-
 })
