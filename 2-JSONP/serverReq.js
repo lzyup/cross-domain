@@ -1,4 +1,4 @@
-var express = require('express'); //引用repress模块
+var express = require('express'); //引用express模块
 var app = express(); //创建一个简单的服务器
 
 var requestPort = 3000;
